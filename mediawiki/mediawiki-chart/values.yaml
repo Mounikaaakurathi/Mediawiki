@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: mwikiacr.azurecr.io/test/mediawiki-image-isha
+  pullPolicy: IfNotPresent
+  tag: "latest5"
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetport: 80
+
+
+resources: {}
+
+ingress:
+  enabled: false
+
