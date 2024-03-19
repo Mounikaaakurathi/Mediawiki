@@ -2,10 +2,7 @@
 Helm chart for mediawiki to deploy on kubernetes
 
 #Pre-requisites
-
-1.) A Kubernetes cluster on cloud. You can also run a minikube or docker for windows desktop .
-2.) Helm
-3.) kubectl
+ A Kubernetes cluster on cloud. You can also run a minikube or docker for windows desktop, Helm and kubectl
 versions installed on my machine .
 kubernetes v1.27.9
 helm v3.8.2
