@@ -4,9 +4,11 @@ Helm chart for mediawiki to deploy on kubernetes
 # Pre-requisites
 A Kubernetes cluster on cloud. You can also run a minikube or docker for windows desktop, Helm and kubectl
 versions installed on my machine .
-kubernetes v1.27.9
-helm v3.8.2
+1.) kubernetes v1.27.9
+2.) helm v3.8.2
 docker image : Here I have Used images I have created and pushed to my private ACR (mwikiacr.azurecr.io/test/mariadb-image-isha)
+Please build the image using docker build -t <name of the image>:tag 
+Push to your registry using docker tag and docker push commands
 # How to run
 The repo conatines two charts .
 
